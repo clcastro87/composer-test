@@ -3,4 +3,4 @@ Testing with composer
 
 Common code for test projects
 
-Editing version 1.1
+Editing version 2.0
