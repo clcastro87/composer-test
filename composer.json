@@ -1,0 +1,35 @@
+{
+    "name": "clcastro87/core",
+    "type": "library",
+    "description": "Core Library for PHP",
+    "keywords": ["core", "php"],
+    "homepage": "https://www.github.com/clcastro87",
+    "license": "MIT",
+    "authors": [
+        {"name": "Carlos Castro", "email": "carlosluiscastro@gmail.com"}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "symfony/symfony": "~3.4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": { 
+            "C2M87\\Core\\": "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "C2M87\\Tests\\": "tests/" 
+        }
+    },
+    "extra": {
+        "branch-alias": null
+    },
+    "archive": {
+        "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar", "lib/vendor", "*.swp", "*coveralls.yml"]
+    }
+}
